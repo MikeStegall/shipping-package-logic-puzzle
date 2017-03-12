@@ -2,7 +2,7 @@
 // I used arrays with string for them but objects could be used as well. Might even be easier if they are.
 var state = ['Ohio', 'Montana', 'Texas', 'Washington']
 var lName = ['Bartley', 'Deforest', 'Fairview', 'Gray']
-var events = ['aniversay', 'birthday', 'house warming', 'wedding']
+var events = ['anniversay', 'birthday', 'house warming', 'wedding']
 var relationships = ['cousin', 'father', 'friend', 'sister']
 var day = ['wednesday', 'thursday', 'friday', 'saturday']
 // Step 2
@@ -43,3 +43,16 @@ if (events === 'anniversary' && state === 'Montana') {
   maybeEllen = true
 }
 // Step 3
+// Ellen Fairview is Gregs cousin that had a wedding in Washington on Wednesday
+if (lName[2] === 'Fairview' && state[3] === 'Washington' && events[3] === 'wedding' && relationships[0] === 'cousin' && day[0] === 'wednesday') {
+  console.log('Ellen Fairview is Gregs cousin that had a wedding in Washington on Wednesday.')
+}
+if (lName[0] === 'Bartley' && state[0] === 'Ohio' && events[1] === 'birthday' && relationships[3] === 'sister' && day[1] === 'thursday') {
+  console.log('Heather Bartley is Gregs sister who lives in Ohio and had a birthday on Thursday.')
+}
+if (lName[1] === 'Deforest' && state[2] === 'Texas' && events[2] === 'house warming' && relationships[2] === 'friend' && day[3] === 'Saturday') {
+  console.log('Rick DeForest is Gregs friend that had a house warming party in TExas on Saturday')
+}
+if (lName[3] === 'Gray' && state[1] === 'Montana' && events[0] === 'anniversary' && relationships[1] === 'father' && day[2] === 'friday') {
+  console.log('Walter Gray is Gregs father who had an anniversary in Montana on Friday.')
+}
