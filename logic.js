@@ -50,9 +50,9 @@ if (lName[2] === 'Fairview' && state[3] === 'Washington' && events[3] === 'weddi
 if (lName[0] === 'Bartley' && state[0] === 'Ohio' && events[1] === 'birthday' && relationships[3] === 'sister' && day[1] === 'thursday') {
   console.log('Heather Bartley is Gregs sister who lives in Ohio and had a birthday on Thursday.')
 }
-if (lName[1] === 'Deforest' && state[2] === 'Texas' && events[2] === 'house warming' && relationships[2] === 'friend' && day[3] === 'Saturday') {
-  console.log('Rick DeForest is Gregs friend that had a house warming party in TExas on Saturday')
+if (lName[1] === 'Deforest' && state[2] === 'Texas' && events[2] === 'house warming' && relationships[2] === 'friend' && day[3] === 'saturday') {
+  console.log('Rick DeForest is Gregs friend that had a house warming party in Texas on Saturday')
 }
-if (lName[3] === 'Gray' && state[1] === 'Montana' && events[0] === 'anniversary' && relationships[1] === 'father' && day[2] === 'friday') {
+if (lName[3] === 'Gray' && state[1] === 'Montana' && events[0] === 'anniversay' && relationships[1] === 'father' && day[2] === 'friday') {
   console.log('Walter Gray is Gregs father who had an anniversary in Montana on Friday.')
 }
